@@ -1,0 +1,36 @@
+{
+  "keywords" : [
+    "properties",
+    "configuration",
+    "codeception",
+    "extension",
+    "module"
+  ],
+  "authors" : [{
+    "name" : "Javier Lopez Lopez",
+    "email" : "sjavierlopez@gmail.com",
+    "homepage" : "https://github.com/Javlopez",
+    "role" : "Developer"
+  }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Javlopez\\Codeception\\" : "src"
+    }
+  },
+  "name" : "JavLopez/codeception-properties",
+  "type" : "library",
+  "description" : "Add custom configuration and properties using xml, json and yaml files",
+  "license" : "MIT License+",
+  "require" : {
+    "php" : ">=5.3",
+    "codeception/codeception" : "^2.1"
+  },
+  "require-dev" : {
+    "squizlabs/php_codesniffer" : ">=2.3.4",
+    "phpmd/phpmd" : ">=2.3.2",
+    "sebastian/phpcpd" : ">=2.0.2",
+    "pdepend/pdepend" : ">=2.0.6",
+    "phploc/phploc" : ">=2.1.1"
+  }
+}
